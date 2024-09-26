@@ -1,0 +1,30 @@
+/* Custom CSS to override GrapesJS default styles */
+.gjs-block-label {
+    color: #ffffff; /* Change block label text color to white */
+}
+
+.gjs-block {
+    background-color: #1E3A8A; /* Dark blue background for blocks */
+    border: 2px solid #3B82F6; /* Light blue border for blocks */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.gjs-block:hover {
+    background-color: #3B82F6; /* Light blue background on hover */
+    border-color: #1E3A8A; /* Dark blue border on hover */
+}
+
+.gjs-block-category-label {
+    color: #60A5FA; /* Light blue for category labels */
+    background-color: #1E3A8A; /* Dark blue background for category labels */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Block Content Styling */
+.gjs-block-content {
+    color: #D1D5DB; /* Light gray text for content */
+    font-family: 'Poppins', sans-serif; /* Change font */
+}
